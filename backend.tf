@@ -1,7 +1,7 @@
 terraform {
   required_version = ">= 1.0.11"
   backend "gcs" {
-    bucket = "ml-terraform-state-file-pat"
+    bucket = "bucket_for_task8_pw"
     prefix = "dev"
   }
   required_providers {

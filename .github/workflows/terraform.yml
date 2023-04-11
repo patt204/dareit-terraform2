@@ -1,9 +1,12 @@
 name: 'Terraform CI'
 
 on:
-  push:
-    branches:
-    - main
+  #Step 7.Point 1. Modify the workflow so that the job will only be triggered whenever a new pull request is opened.
+  #push: 
+  pull_request:
+    types: [opened]
+    #branches:
+    #- main
 
 jobs:
   terraform:

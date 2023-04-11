@@ -1,5 +1,5 @@
 provider "google" {
-  project = "groovy-design-378320-26a3c2507d9f"
+  project = "groovy-design-378320"
   region  = "us-central1"
   zone    = "us-central1-c"
 }
