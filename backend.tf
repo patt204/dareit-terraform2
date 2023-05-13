@@ -1,4 +1,4 @@
-terraform {
+'terraform {
   required_version = ">= 1.0.11"
   backend "gcs" {
     bucket = "bucket_for_task8_pw"
@@ -15,3 +15,4 @@ terraform {
     }
   }
 }
+'
