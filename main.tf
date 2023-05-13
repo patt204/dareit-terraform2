@@ -1,4 +1,4 @@
-resource "google_compute_instance" "dareit-vm-ci" {
+'resource "google_compute_instance" "dareit-vm-ci" {
   name         = "dareit-vm-tf-2"
   machine_type = "e2-medium"
   zone         = "us-central1-a"
@@ -23,3 +23,4 @@ resource "google_compute_instance" "dareit-vm-ci" {
   }
 }
 
+'
